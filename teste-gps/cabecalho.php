@@ -13,7 +13,7 @@
 	            <ul>
 	           	   	<li><a href="index.php">Início</a></li>
 	               	<li><a href="atividades.php">Atividades</a></li>
-	                <li><a href="#">Grupos</a></li>
+	                <li><a href="grupos.php">Grupos</a></li>
 	                <li><a href="registro.php">Perfil</a></li>
 	                <li><a href="#">Sobre</a></li>
 	            </ul>
