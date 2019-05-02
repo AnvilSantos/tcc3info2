@@ -1,0 +1,3 @@
+1) Instale xampp e inicie o apache juntamente com mysql
+2)Faça o download deste repositório e coloque em seu host
+3)utilize o código de criação e população do banco de dados 
