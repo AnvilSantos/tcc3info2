@@ -1,6 +1,6 @@
 <?php
     include 'cabecalho.php';
-    echo('<meta http-equiv="refresh" content="3;url=registro.php">');
+    echo('<meta http-equiv="refresh" content="3;url=cadastrar.php">');
 ?>	
    	
 	<div class="main_top">

@@ -1,7 +1,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 <title>Teste grupos de estudo</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
 	               	<li><a href="atividades.php">Atividades</a></li>
 	                <li><a href="grupos.php">Grupos</a></li>
 	                <li><a href="registro.php">Perfil</a></li>
-	                <li><a href="#">Sobre</a></li>
+	                <li><a href="cadastrar.php">Cadastro</a></li>
 	            </ul>
 	        </div>
 	    </nav>

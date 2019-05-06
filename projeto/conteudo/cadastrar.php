@@ -7,8 +7,11 @@
     </div>
     <div class="divisor"></div>
     <div class="fundo">
-    	<form action="acao_registro.php">
+    	<form action="index.php?p=cadastrar" method="POST">
   			<div class="container">
+
+  			<label for="nome"><b>Nome</b></label>
+		    <input type="text" placeholder="Nome" name="nome" required>  
 
 		    <label for="email"><b>Email</b></label>
 		    <input type="text" placeholder="Email" name="email" required>
@@ -27,7 +30,7 @@
 
 		    <div class="clearfix">
 		      <button type="button" class="cancelbtn">cancelar</button>
-		      <button type="submit" class="signupbtn">Cadastre-se</button>
+		      <input type="submit" value="Salvar" name="confirmar" class="signupbtn">Confirmar</button>
 		    </div>
 		    <a href="login.php" style="color:dodgerblue">Já possui cadastro?</a>
 		  </div>
