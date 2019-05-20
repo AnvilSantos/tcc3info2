@@ -76,7 +76,7 @@ if(isset($_POST['login'])){
     <![endif]-->
 
 </head>
-<body>
+<body style="background-color: #4682B4">
 
     <div class="container">
         <div class="row">

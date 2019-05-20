@@ -13,8 +13,7 @@ p {text-align: left;}
 body {
 	margin: 0;
 	padding: 0;
-	background: #C1C1C1;
-	background-image:url(background.png);
+	background: #4682B4;
 	text-align: left;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
@@ -115,7 +114,6 @@ font-size:24px;
 line-height:85px;
 color:#000000;
 padding-left:25px;
-background-image:url(header_h1_bg.png);
 background-position:right;
 background-repeat:no-repeat;
 margin-right:25px;
@@ -195,11 +193,6 @@ color:#CCCCCC;
 .divisor{
 	clear: both;
 }
-.fundo{
-	color: black;
-	background: white;
-	margin: 1; 
-}
 /* Full-width input fields */
   input[type=text], input[type=password] {
   width: 100%;
@@ -254,3 +247,77 @@ button:hover {
   display: table;
 }
 
+/* loading*/
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+/* Perfil*/
+.imgcontainer {
+  text-align: center;
+}
+.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+.perfil {
+  text-align: center;
+}
+.informacao-perfil{
+  padding-left: 2%;
+}
+.infos{
+  padding-top: 0.5%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.logo{
+  width: 5%;
+  padding-bottom: 1%;
+}

@@ -5,8 +5,7 @@
 	<div class="main_top">
       	<h1>Registro</h1>
     </div>
-    <div class="divisor"></div>
-    <div class="fundo">
+    <div class="main_body">
     	<form action="index.php?p=cadastrar" method="POST">
   			<div class="container">
 
@@ -30,7 +29,7 @@
 
 		    <div class="clearfix">
 		      <button type="button" class="cancelbtn">cancelar</button>
-		      <input type="submit" value="Salvar" name="confirmar" class="signupbtn">Confirmar</button>
+		      <button type="submit" value="Salvar" name="confirmar" class="signupbtn">Confirmar</button>
 		    </div>
 		    <a href="login.php" style="color:dodgerblue">Já possui cadastro?</a>
 		  </div>
