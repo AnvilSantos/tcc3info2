@@ -1,4 +1,4 @@
 <?php 
 //<?php include("class/protect.php");
 ?>
-<a href="class/logout.php">Logout</a>
+<a href="../class/logout.php">Logout</a>

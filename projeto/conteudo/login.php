@@ -5,7 +5,7 @@ if(!isset($_SESSION))
 //Login de Usários
 if(isset($_POST['login'])){
 
-  include('class/conexao.php');
+  include('../class/conexao.php');
   
   $erro = array();
 
@@ -61,11 +61,11 @@ if(isset($_POST['login'])){
     <title>Login</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Custom CSS -->
-    <link href="css/sb-admin-2.css" rel="stylesheet">
+    <link href="../css/sb-admin-2.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
