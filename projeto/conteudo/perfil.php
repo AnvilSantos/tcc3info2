@@ -1,10 +1,10 @@
 <?php 
 	include 'cabecalho.php';
 ?>
+	<div class="main_body">
 	<div class="main_top">
 		<h1>Perfil</h1>
 	</div>
-	<div class="main_body">	
 		<div class="imgcontainer">
 			</br>
 			<img src="../img/img_avatar2.png" alt="avatar" class="avatar">

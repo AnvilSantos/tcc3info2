@@ -2,10 +2,11 @@
 	include 'cabecalho.php';
 ?>
 
-	<div class="main_top">
-      	<h1>Registro</h1>
-    </div>
-    <div class="main_body">
+	<div class="main_body">
+		<div class="main_top">
+      		<h1>Registro</h1>
+    	</div>
+    
     	<form action="index.php?p=cadastrar" method="POST">
   			<div class="container">
 
@@ -28,8 +29,8 @@
 		    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
 		    <div class="clearfix">
-		      <button type="button" class="cancelbtn">cancelar</button>
-		      <button type="submit" value="Salvar" name="confirmar" class="signupbtn">Confirmar</button>
+		      <button type="button" class="cancelbtn borda-redonda">cancelar</button>
+		      <button type="submit" value="Salvar" name="confirmar" class="signupbtn borda-redonda">Confirmar</button>
 		    </div>
 		    <a href="login.php" style="color:dodgerblue">Já possui cadastro?</a>
 		  </div>

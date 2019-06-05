@@ -2,11 +2,11 @@
     include 'cabecalho.php';
 ?>
 
-        	<div class="main_top">
-            	<h1>Atividades</h1>
+           	<div class="main_body">
+            <div class="main_top">
+                <h1>Atividades</h1>
             </div>
             
-           	<div class="main_body">
                 <section>
                     <h2 class="espaco">Português</h2>
                     <h3 class="espaco">ProfºXXXX</h3>

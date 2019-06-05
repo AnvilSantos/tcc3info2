@@ -17,7 +17,6 @@ body {
 	text-align: left;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #F1F5F8;
 }
 *
 {
@@ -85,26 +84,22 @@ margin-bottom:10px;
 }
 
 
-#main .main_top
+/*#main .main_top
 {
 height:85px;
 width:921px;
 background-image:url(main_top.png);
 background-repeat:no-repeat;
-}
+}*/
 
 #main .main_body
 {
 
-padding-left:0px;
-height:auto;
-width:921px;
-background-image:url(main_body.png);
-background-repeat:repeat-y;
-color:#000000;
-padding-bottom:20px;
-
-
+  width: 57.5%;
+  background-color: white;
+  align-content: center;
+  border-radius: 10px;
+  padding-bottom: 3%;
 }
 
 
@@ -114,8 +109,6 @@ font-size:24px;
 line-height:85px;
 color:#000000;
 padding-left:25px;
-background-position:right;
-background-repeat:no-repeat;
 margin-right:25px;
 }
 
@@ -128,16 +121,6 @@ padding-left:20px;
 padding-right:20px;
 }
 
-
-#main .main_bottom
-{
-height:8px;
-width:921px;
-background-image:url(main_bottom.png);
-background-repeat:no-repeat;
-}
-
-
 #page
 {
   margin: 0 auto 0 auto; 
@@ -148,16 +131,6 @@ background-repeat:no-repeat;
   overflow: hidden; 
   width: 921px;
 }
-
-#header
-{
-background-image:url(header.png);
-background-repeat:no-repeat;
-width:921px;
-height:72px;
-}
-
-
 
 #footer {
 display:block;
@@ -320,4 +293,41 @@ li a:hover {
 .logo{
   width: 5%;
   padding-bottom: 1%;
+}
+.borda-redonda{
+  border-radius: 10px;
+}
+.borda{
+  border-radius: 7px;
+  border: 2px solid black
+}
+/*Perfil*/
+* {
+  box-sizing: border-box;
+}
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }

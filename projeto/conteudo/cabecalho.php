@@ -2,6 +2,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teste grupos de estudo</title>
 </head>
 <body>
